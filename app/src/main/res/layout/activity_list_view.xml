@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:maxHeight="30dp"
+    >
+
+    <TextView
+        android:id="@+id/listViewName"
+        android:layout_width="284dp"
+        android:layout_height="42dp"
+        android:hint="Name"></TextView>
+
+    <TextView
+        android:id="@+id/listViewPhone"
+        android:layout_width="3dp"
+        android:layout_height="3dp"
+        android:visibility="invisible"
+        android:hint="Phone"></TextView>
+    <TextView
+        android:layout_width="3dp"
+        android:layout_height="3dp"
+        android:id="@+id/listViewID"
+        android:visibility="invisible"
+        android:hint="ID"></TextView>
+    <TextView
+        android:layout_width="3dp"
+        android:layout_height="3dp"
+        android:id="@+id/listViewAddress"
+        android:visibility="invisible"
+        android:hint="Address"></TextView>
+    <TextView
+        android:layout_width="3dp"
+        android:layout_height="3dp"
+        android:id="@+id/listViewEmail"
+        android:visibility="invisible"
+        android:hint="Email"></TextView>
+    <TextView
+        android:layout_width="366dp"
+        android:layout_height="42dp"
+        android:id="@+id/listViewProduct"
+        android:hint="Product"></TextView>
+    <TextView
+        android:layout_width="3dp"
+        android:layout_height="3dp"
+        android:id="@+id/listViewPrice"
+        android:visibility="invisible"
+        android:hint="Price"></TextView>
+
+
+</LinearLayout>
